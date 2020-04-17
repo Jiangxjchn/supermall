@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app" class="wrapper">
     <router-view></router-view>
-    <main-tab-bar></main-tab-bar>
+    <main-tab-bar class="tab-bar"></main-tab-bar>
   </div>
 </template>
 <script>
@@ -16,4 +16,7 @@
 </script>
 <style>
   @import "assets/css/base.css";
+  .tab-bar{
+    z-index: 9;
+  }
 </style>
